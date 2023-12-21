@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+
+        <a href="About.html"> <b>  ABOUT ME</b> </a>
+
+    </header>
+
+    
+    <form action="doit" id="doit" method="post">
+
+        <img 
+        class="form-icon"
+        src="assets/Altschool.jpg"
+        alt="Altschool logo"
+        width="100"
+        height="100"
+        />
+    
+
+
+        <div class="container" 
+        style="padding: 16px;">
+
+        <h1 style="color: blueviolet;"> APPLICATION FORM</h1>
+    <p style="color: blueviolet;">Fill in your details</p>
+
+        
+
+        <label>
+           First Name
+            <input id="firstname" name="fname" type="text" placeholder="First Name" required/>
+        </label>
+
+        <label>
+            Last Name
+            <input id="lastname" name="lname" type="text" placeholder="Last Name" required/>
+        </label>
+
+        <div style="clear:both;">&nbsp;</div>
+
+        <br/>
+
+        <label>
+            Gender
+            <input list="gender" name="gender" placeholder="select gender" required/>
+            <datalist id="gender">
+
+                <option>Male</option>
+                <option>Female</option>
+                <option>others</option>
+
+            </datalist>
+               
+        </label>
+
+        <label>
+            Date of Birth
+            <input type="date" name="date" required/>
+        </label>
+          
+        <div style="clear:both;">&nbsp;</div>
+
+        <br/>
+
+        <label>
+            Email Address
+            <input type="email" name="email" placeholder="Enter email address" required/>
+        </label>
+
+        <label>
+            Education Level
+            <input list="education" name="education" placeholder="Select level of education" required/>
+            <datalist id="education">
+                <option>Msc</option>
+                <option>HND/Bsc</option>
+                <option>A levels</option>
+                <option>SSCE</option>
+                <option>others</option>
+
+            </datalist>
+        </label>
+
+        <div style="clear:both;">&nbsp;</div>
+
+        <br/>
+
+        <label>
+            Country
+            <input list="country" name="country" placeholder="Select your country" required/>
+            <datalist id="country">
+                <option> Angola</option>
+                <option> Benin</option>
+                <option> Ghana</option>
+                <option> Kenya</option>
+                <option> Nigeria</option>
+                <option> South Africa</option>
+                <option> Tanzania</option>
+                
+            </datalist>
+        </label>
+
+        <label>
+            State/city of Residence
+            <input type="text" name="state" placeholder="Enter your state/city of Residence" required/>
+        </label>
+
+        <div style="clear:both;">&nbsp;</div>
+        <br/>
+
+        <label>
+            Employment Status
+            <input list="status" name="status" placeholder="Select employmnt status" required/>
+            <datalist id="status">
+                <option> Employed</option>
+                <option> Unemployed</option>
+                <option> Self Employed</option>
+                <option> Student</option>
+                <option> Corper</option>
+                
+            </datalist>
+        </label>
+
+        <label>
+            Phone Number
+            <input type="tel" id="phone" name="phone" required/>
+        </label>
+
+        <div style="clear:both;">&nbsp;</div>
+        <br/>
+
+        <label>
+            Choose School
+            <input list="school" name="school" placeholder="school" required/>
+            <datalist id="school">
+                <option> Business</option>
+                <option> Creative Economy</option>
+                <option> Data</option>
+                <option> Engineering</option>
+                <option> Product</option>
+                
+            </datalist>
+        </label>
+
+        <label>
+            Choose Course of Study
+
+            <input list="course" name="course" placeholder="select course" required/>
+            <datalist id="course">
+                <option> Front-End</option>
+                <option> Back-End</option>
+                <option> Cloud</option>
+
+        </label>
+
+        <div style="clear:both;">&nbsp;</div>
+        <br/>
+
+        <label>
+            How did you hear about us
+            <input list="about" name="about" placeholder="select channel" required/>
+            <datalist id="about">
+                <option> Twitter</option>
+                <option> Facebook</option>
+                <option> Advert</option>
+                <option> Friends</option>
+
+        </label>
+
+        <label>
+            Scholarship/Discount Code(optional)
+            <input type="text" name="scholarship" placeholder="Scholarship or student ID or .."/>
+        </label>
+
+        <div style="clear:both;">&nbsp;</div>
+        <hr >
+
+        <p>
+            By clicking continue, i agree to <a href="#"> Terms of Use</a> and acknowledge <br/>
+            that i <br/>
+            have read the <a href="#" >Privacy Policy</a>.
+        </p>
+        <button type="submit" class="registerbtn" 
+          > Proceed </button>
+
+
+        </div>
+
+        <div class="container signin" >
+            <p>Already have an account? <a href="#">  Sign In</a></p>
+
+        </div>
+
+
+        </form>
+    
+
+        
+        
+
+     
+    
+
+    
+</body>
+</html>
